@@ -1,0 +1,6 @@
+Library Name,Visits,Checkouts,Computer Sessions,Missing Field
+Central Library,35000,12000,6000,
+West Branch,18000,7600,4000,Unknown
+East Branch,22000,9100,5100,
+North Branch,-1,8500,4500,Unknown
+South Branch,27000,10200,5200,500

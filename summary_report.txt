@@ -1,0 +1,8 @@
+I used the Public Library Usage dataset for this assignment. This data set included data about library names, the number of visits, checkouts, computer sessions, and missing fields. Essentially, a variety of data that included both words and numbers.
+
+I first used the pandas read_csv() function to retrieve the data from the csv file. I used the .isnull().sum() feature to map the number of missing fields there were. After, I dropped the rows and columns with Null values. To remove erroneous values in the results, I included a function that made sure to have the number of visits be greater than or equal to zero. I then printed one last time with the new, cleaned dataframe.
+
+After cleaning the data, the dataset contained three records. The average number of visits was 22,500, the number of checkouts was 8,900, and the number of computer sessions was 4600. 
+
+Overall, the summary statistics provided an overview of library usage with cleaned data. I learned how pandas can be used to clean dataframes, remove missing and incorrect data, and how I would like to format my data for a clean reading.
+
